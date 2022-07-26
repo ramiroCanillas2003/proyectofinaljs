@@ -1,6 +1,34 @@
+
+
 body{
-    background-color: lightsalmon;
+    background-color: lightslategray;
   }
+
+.titulo{
+  color: lightskyblue;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 6px;
+  color: black;
+  background-color: lightgray;
+}
+
+.h4Uno{
+  color: lightskyblue;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 6px;
+  color: lightsalmon;
+  background-color: lightgray;
+}
 
   header, .alert{
     z-index: 100;
@@ -48,4 +76,28 @@ body{
     display: none;
   }
 
+    /*ICONO WHATSAPP*/
+    .float{
+      position:fixed;
+      width:60px;
+      height:60px;
+      bottom:40px;
+      right:40px;
+      background-color:#25d366;
+      color:#FFF;
+      border-radius:50px;
+      text-align:center;
+      font-size:30px;
+      box-shadow: 2px 2px 3px #999;
+      z-index:100;
+  }
+  .float:hover {
+      text-decoration: none;
+      color: #25d366;
+      background-color:#fff;
+  }
+  
+  .my-float{
+      margin-top:16px;
+  }
 
